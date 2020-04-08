@@ -1,6 +1,6 @@
 # Личный проект «Tire shop»
 
-* Project developer: [Alexey Pasmarnov].
+* Project developer: Alexey Pasmarnov.
 
 ---
 
