@@ -1,4 +1,4 @@
-# Личный проект «Tire shop»
+# Personal project «Tire shop»
 
 * Project developer: Alexey Pasmarnov.
 
