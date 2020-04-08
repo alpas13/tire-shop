@@ -1,4 +1,4 @@
-# Личный проект «Tire shop» [![Build status][travis-image]][travis-url]
+# Личный проект «Tire shop»
 
 * Project developer: [Alexey Pasmarnov].
 
