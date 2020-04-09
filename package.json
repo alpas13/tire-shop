@@ -1,0 +1,23 @@
+{
+  "name": "tire-shop",
+  "version": "1.0.0",
+  "description": "Personal project for study",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alpas13/tire-shop.git"
+  },
+  "author": "Oleksiy Pasmarnov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alpas13/tire-shop/issues"
+  },
+  "homepage": "https://github.com/alpas13/tire-shop#readme",
+  "devDependencies": {
+    "stylelint": "13.3.1",
+    "stylelint-config-htmlacademy": "^0.1.4"
+  }
+}
