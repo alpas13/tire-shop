@@ -10,14 +10,14 @@
 <body class="no-js">
 <header class="page-header">
   <div class="page-header__wrap">
-    <div class="page-header__top">
+    <div class="page-header__top" role="banner">
       <div class="page-header__container">
         <h1 class="page-header__title visually-hidden">Интернет-магазин Автозапчестей: Главная</h1>
         <button class="page-header__menu-toggle" role="button" type="button">
           <span class="visually-hidden">Открыть меню</span>
           <span class="page-header__menu-toggle-bar"></span>
         </button>
-        <a class="logo">
+        <a class="logo" role="link">
           <img alt="Логотип интернет магазина Автозапчастей" class="logo__image"
                 src="http://placehold.it/102x51/cccccc&text=Logo">
         </a>
@@ -87,7 +87,7 @@
     </nav>
   </div>
 </header>
-<main class="main main__main-page">
+<main class="main main__main-page" role="main">
   <section class="notice">
     <h2 class="notice__header visually-hidden">Анонс товаров</h2>
     <div class="notice__container">
@@ -198,6 +198,75 @@
           </footer>
         </article>
       </div>
+    </div>
+  </section>
+  <section class="search">
+    <h3 class="visually-hidden">Поиск по сайту</h3>
+    <div class="search__container tabs tabs--no-underline">
+      <div class="tabs__list-wrap">
+        <ul class="tabs__list">
+          <li class="tabs__item">Поиск по Vin</li>
+          <li class="tabs__item">Поиск по марке</li>
+          <li class="tabs__item">Поиск по названию товара</li>
+          <li class="tabs__item">Поиск по артикулу</li>
+        </ul>
+      </div>
+      <section class="tabs__panel">
+        <h3 class="visually-hidden">Поиск по Vin</h3>
+        <form action="#" method="post" class="search__form">
+          <div class="search__fields">
+            <div class="search__input">
+              <label for="search-vin-input" class="visually-hidden">Введите vin код</label>
+              <input type="search" class="search__input" id="search-vin-input" placeholder="Введите vin код" name="search-input" required>
+            </div>
+          </div>
+          <button type="submit" class="button">
+            <span class="search__vh-mobile">Искать</span>
+          </button>
+        </form>
+      </section>
+      <section class="tabs__panel">
+        <h3 class="visually-hidden">Поиск по марке</h3>
+        <form action="#" method="post" class="search__form">
+          <div class="search__fields">
+            <div class="search__input">
+              <label for="search-mark-input" class="visually-hidden">Введите марку автомобиля</label>
+              <input type="search" class="search__input" id="search-mark-input" placeholder="Введите марку автомобиля" name="search-input" required>
+            </div>
+          </div>
+          <button type="submit" class="button">
+            <span class="search__vh-mobile">Искать</span>
+          </button>
+        </form>
+      </section>
+      <section class="tabs__panel">
+        <h3 class="visually-hidden">Поиск по названию товара</h3>
+        <form action="#" method="post" class="search__form">
+          <div class="search__fields">
+            <div class="search__input">
+              <label for="search-product-input" class="visually-hidden">Введите название товара</label>
+              <input type="search" class="search__input" id="search-product-input" placeholder="Введите название товара" name="search-input" required>
+            </div>
+          </div>
+          <button type="submit" class="button">
+            <span class="search__vh-mobile">Искать</span>
+          </button>
+        </form>
+      </section>
+      <section class="tabs__panel">
+        <h3 class="visually-hidden">Поиск по артикулу</h3>
+        <form action="#" method="post" class="search__form">
+          <div class="search__fields">
+            <div class="search__input">
+              <label for="search-article-input" class="visually-hidden">Введите артикул</label>
+              <input type="search" class="search__input" id="search-article-input" placeholder="Введите артикул" name="search-input" required>
+            </div>
+          </div>
+          <button type="submit" class="button">
+            <span class="search__vh-mobile">Искать</span>
+          </button>
+        </form>
+      </section>
     </div>
   </section>
 </main>
